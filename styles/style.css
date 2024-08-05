@@ -1,0 +1,113 @@
+
+
+.azeret-mono-regular{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+  }
+   
+  /* shared styles */
+  
+  .secondary-bg{
+      background-color:#ADC8F7;
+  }
+  
+  .about{
+      margin: 64px 80px 70px 80px;
+      border-radius: 10px;
+      padding: 100px 120px;
+  }
+  main{
+      width: 1140px;
+      margin: 0 auto;
+  }
+  
+  .azeret-mono-regular{
+      color: #0D1321;
+  }
+  .text-center{
+      text-align: center;
+  }
+  .text-p{
+      font-size: 10px;
+  }
+  
+  /* nav styles */
+  
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 50px 0 50px;
+  }
+  
+  .nav-title{
+      font-weight: 800;
+      font-size: 28px;
+  }
+  nav ul li{
+      list-style: none;
+  }
+  
+  .btn{
+      width: 196px;
+      height: 24px;
+      font-weight: bold;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  
+  
+  /* banner styles */
+  
+  
+  .hero{
+      background-image: url(../assets/Hero-bg.png);
+      max-width: 1440px;
+      max-height: 600px;
+      text-align: center;
+      
+      
+  }
+  
+  .hero-content{
+      text-align: center;
+      width: auto;
+      height: 350px;
+      padding: 0px 216px 67px 200px;
+      gap: 32px;
+  }
+  .btn-primary{
+      width: 196px;
+      height: 24px;
+      text-align: center;
+      background-color: #0D1321;
+      color: #FFFFFF;
+      padding: 21px 24px;  
+      cursor: pointer;
+      border-radius: 10px;
+  }
+  
+  /* why web dev styles */
+  .section-1{
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  /* flex box styles */
+  
+  .flex-container{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content:space-between;
+      gap: 30px;
+  }
+  .flex-box{
+      text-align: justify;
+  }
