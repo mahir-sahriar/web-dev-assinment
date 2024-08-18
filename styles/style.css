@@ -54,9 +54,10 @@
       list-style: none;
   }
   
-  .btn{
+  #btn{
       width: 196px;
-      height: 24px;
+      height: 24px 24px;
+      text-align: center;
       font-weight: bold;
       color: white;
       border-radius: 10px;
@@ -89,7 +90,7 @@
       text-align: center;
       background-color: #0D1321;
       color: #FFFFFF;
-      padding: 21px 24px;  
+      padding: 24px 24px;  
       cursor: pointer;
       border-radius: 10px;
   }
@@ -111,4 +112,19 @@
   }
   .flex-box{
       text-align: justify;
+  }
+
+  /* My Inspiration */
+
+  .video-text{
+    align-items: center;
+    max-width: 1140%;
+    max-height: 614px;
+    align-items: center; 
+  }
+
+  .video-container{
+    gap: 10px;
+    overflow: hidden;
+    border-radius: 16px;
   }
