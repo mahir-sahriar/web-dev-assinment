@@ -85,9 +85,9 @@
       gap: 32px;
   }
   .btn-primary{
-      width: 196px;
+      width: 190px;
       height: 24px;
-      text-align: center;
+      align-items: center;
       background-color: #0D1321;
       color: #FFFFFF;
       padding: 24px 24px;  
@@ -122,9 +122,60 @@
     max-height: 614px;
     align-items: center; 
   }
-
   .video-container{
     gap: 10px;
-    overflow: hidden;
-    border-radius: 16px;
   }
+
+  .rounded-iframe {
+    width: 80%;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 16px; 
+    overflow: hidden;
+  }
+
+
+/* current target stat */
+
+.skill{
+    max-width: 1140px;
+    max-height: 460px;
+    margin: 30px;
+    padding: 10px;
+    
+}
+
+/* card-container */
+
+.card-container{
+display: flex;
+align-items: center;
+align-content:space-around;
+gap: 20px;
+border: #ccc;
+border-radius: 10px;
+}
+
+.card-1{
+    text-align: justify;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 76, 30, 0.05)
+}
+.card-2{
+    text-align: justify;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.card-3{
+    text-align: justify;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.bold{
+    font-size: 11px;
+    font-weight: bold;
+    
+}
