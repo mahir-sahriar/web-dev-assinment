@@ -181,6 +181,13 @@ margin-top: 30px;
 }
 
 /* my next target start */
+
+.skill-2{
+    max-width: 1140px;
+    max-height: auto;
+    margin: 30px;
+    padding: 10px;  
+}
 .react{
     display: flex;
     text-align: justify;
@@ -216,3 +223,43 @@ margin-top: 30px;
     padding: 5px 10px 10px 10px;
     margin-top: 24px;
 }
+
+/* suggest box */
+
+.suggest-container{
+    max-width: 1140px;
+    max-height: auto;
+    margin: 35px;
+    margin-top: 10px;
+    padding:160px;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    border-radius: 10px;
+}
+
+.title{
+    color:white;
+    text-align: center;
+}
+
+.feedback-bar{
+    
+    align-items: center;
+    margin-left: 50px;
+    width: 35%;
+    padding: 15px 300px 15px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.submit{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    gap: none;
+}
+
+
